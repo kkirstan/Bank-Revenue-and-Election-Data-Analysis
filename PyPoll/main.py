@@ -40,6 +40,17 @@ with open(csvpath, "r") as csvfile:
             otooley_votes = len(otooley)
             percentotooley = round((otooley_votes/total_votes)*100,3)
 
+    winner = max(percentkhan,percentcorrey,percentli,percentotooley)
+
+    if winner == percentkhan:
+        winner1 = "Khan"
+    elif winner == percentcorrey:
+        winner1 = "Correy"
+    elif winner == percentli:
+        winner1 = "Li"
+    elif winner == percentotooley:
+        winner1 = "O'Tooley" 
+
     print("Election Results")
     print("-----------------------")
     print("Total Votes: " + str(total_votes))
@@ -49,5 +60,5 @@ with open(csvpath, "r") as csvfile:
     print("Li: " + str(percentli) + "% (" + str(li_votes) + ")")
     print("O'Tooley: " + str(percentotooley) + "% (" + str(otooley_votes) + ")")
     print("-----------------------")
-    print("Winner: ")
+    print("Winner: " + winner1)
     print("-----------------------")
