@@ -62,3 +62,6 @@ with open(csvpath, "r") as csvfile:
     print("-----------------------")
     print("Winner: " + winner1)
     print("-----------------------")
+
+log = open("PyPollAnalysis.txt", "w")
+print("PyPoll Analysis", file = log)
