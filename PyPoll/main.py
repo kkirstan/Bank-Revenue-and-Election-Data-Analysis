@@ -1,8 +1,11 @@
+#import dependencies
 import os
 import csv
 
+#set file path
 csvpath = os.path.join("..", "PyPoll/Resources", "PyPoll_Data.csv")
 
+#define lists
 voter_list = []
 county_list = []
 candidates_list = []
@@ -11,17 +14,21 @@ correy = []
 li = []
 otooley = []
 
+#read csvfile
 with open(csvpath, "r") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     csv_header = next(csvreader)
 
+    #create lists
     for row in csvreader:
         voter_list.append(str(row[0]))
         county_list.append(row[1])
         candidates_list.append(row[2])
 
+    #calculate total votes
     total_votes = len(voter_list)
 
+    #calculate total votes/percentage of overall votes per candidate
     for x in candidates_list:
         if x == "Khan":
             khan.append(candidates_list)
@@ -40,6 +47,7 @@ with open(csvpath, "r") as csvfile:
             otooley_votes = len(otooley)
             percentotooley = round((otooley_votes/total_votes)*100,3)
 
+    #find winner
     winner = max(percentkhan,percentcorrey,percentli,percentotooley)
 
     if winner == percentkhan:
@@ -51,6 +59,7 @@ with open(csvpath, "r") as csvfile:
     elif winner == percentotooley:
         winner1 = "O'Tooley" 
 
+    #print analysis
     print("Election Results")
     print("-----------------------")
     print("Total Votes: " + str(total_votes))
