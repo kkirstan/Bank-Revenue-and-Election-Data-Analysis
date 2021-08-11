@@ -1,6 +1,9 @@
 # PyBank Data Analysis
   In this challenge I created a python script (located [here](PyBank/main.py)) to analyze mock bank data [budget_data.csv](PyBank/Resources/budget_data.csv) to find the total revenue accrued, the average change in revenue from month to month, and the months with the greatest increase and greatest loss of revenue over a 7-year period. In addition, I created the text file [PyBankAnalysis.txt](PyBank/Analysis/PyBankAnalysis.txt) that includes the output results, located within the PyBank/Analysis folders.
 
+# Technology Used
+- Python
+
 # PyBank Instructions
  
  Create a python script that analyzes the records to calculate each of the following:
