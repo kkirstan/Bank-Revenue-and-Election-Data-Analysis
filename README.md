@@ -14,9 +14,11 @@
 •The greatest increase in profits (date and amount) over the entire period
 
 •The greatest decrease in losses (date and amount) over the entire period
+
+![bank_analysis](Images/bank_analysis.png)
   
 # PyPoll Data Analysis
-  In this challenge I created a python script to analyze election data [PyPoll_Data.csv](PyPoll/Resources/PyPoll_Data.csv) to calculate the overall total number of votes, the total number of votes and percentage of votes per candidate, and the winner of the election. In addition, I created the text file [PyPollAnalysis.txt]( that includes the output results, located within the PyPoll/Analysis folders.
+  In this challenge I created a python script to analyze election data [PyPoll_Data.csv](PyPoll/Resources/PyPoll_Data.csv) to calculate the overall total number of votes, the total number of votes and percentage of votes per candidate, and the winner of the election. In addition, I created the text file [PyPollAnalysis.txt](PyPoll/Analysis/PyPollAnalysis.txt) that includes the output results, located within the PyPoll/Analysis folders.
   
 # PyPoll Instructions
 
@@ -31,3 +33,5 @@
 •The total number of votes each candidate won
 
 •The winner of the election based on popular vote
+
+![election_results](Images/election_results.png)
