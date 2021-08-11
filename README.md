@@ -1,9 +1,9 @@
 # PyBank Data Analysis
-  In this challenge I created a python script to analyze mock bank data (budget_data.csv, "PyBank/Resources") to find the total revenue accrued, the average change in revenue from month to month, and the months with the greatest increase and greatest loss of revenue over a 7-year period. In addition, I created the text file "PyBankAnalysis.txt" that includes the output results, located within the PyBank/Analysis folders.
+  In this challenge I created a python script to analyze mock bank data [budget_data.csv](PyBank/Resources/budget_data.csv) to find the total revenue accrued, the average change in revenue from month to month, and the months with the greatest increase and greatest loss of revenue over a 7-year period. In addition, I created the text file [PyBankAnalysis.txt](PyBank/Analysis/PyBankAnalysis.txt) that includes the output results, located within the PyBank/Analysis folders.
 
 # PyBank Instructions
  
- Create a python script that analyzes the records to calculate each of the following:
+ Create a python script that analyze the records to calculate each of the following:
 
 •The total number of months included in the dataset
 
@@ -16,7 +16,7 @@
 •The greatest decrease in losses (date and amount) over the entire period
   
 # PyPoll Data Analysis
-  In this challenge I created a python script to analyze election data (PyPoll_Data.csv, "PyPoll/Resources") to calculate the overall total number of votes, the total number of votes and percentage of votes per candidate, and the winner of the election. In addition, I created the text file "PyPollAnalysis.txt" that includes the output results, located within the PyPoll/Analysis folders.
+  In this challenge I created a python script to analyze election data [PyPoll_Data.csv](PyPoll/Resources/PyPoll_Data.csv) to calculate the overall total number of votes, the total number of votes and percentage of votes per candidate, and the winner of the election. In addition, I created the text file [PyPollAnalysis.txt]( that includes the output results, located within the PyPoll/Analysis folders.
   
 # PyPoll Instructions
 
